@@ -71,9 +71,12 @@ h2 {
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
     text-align: center;  
     text-decoration: none;
-    color: black;              
+    color: black;   
+    transition: transform 0.3s ease;          
 }
-/* Footer Styles */
+.project:hover {
+    transform: translateY(-5px); 
+}
 footer {
     background: var(--primary-color);
     color: var(--secondary-color);
