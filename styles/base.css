@@ -1,0 +1,82 @@
+/* Heath lyon*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+:root {
+    --primary-color: #4CAF50;  
+    --secondary-color: #f4f4f4; 
+    --accent-color: #e0f7fa;   
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure consistent box model */
+}
+
+/* Header Styles */
+header {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1em 0;
+    text-align: center;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px; 
+}
+#card1 {
+    width: 60%;
+}
+#card2 {
+    width: 35%;
+}
+.card img {
+    float: right;               
+    width: 150px;              
+    height: auto;               
+    margin-top: 1%;           
+    margin-left: 10px;          
+}
+h2 {
+    margin-bottom: 20px;
+}
+
+.projects {
+    display: flex;              
+    justify-content: center;     
+    gap: 20px;                   
+    flex-wrap: wrap;             
+    margin-top: 20px;          
+}
+
+.project {
+    background: var(--accent-color); 
+    border: 1px solid #ddd;        
+    border-radius: 8px;           
+    padding: 20px;                
+    width: 200px;                   
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center;  
+    text-decoration: none;
+    color: black;              
+}
+/* Footer Styles */
+footer {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
