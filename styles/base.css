@@ -99,8 +99,8 @@ nav a {
 
 nav a:hover {
     color: white;              
-    background-color: var(--primary-color);  
-    border-radius: 4px;        
+    background-color: var(--primary-color); 
+    border-radius: 8px;        
 }
 li {
     margin-bottom: 20px; 
