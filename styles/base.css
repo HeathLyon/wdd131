@@ -30,6 +30,7 @@ main {
     justify-content: space-between; 
     flex-wrap: wrap; 
     max-width: fit-content;
+    background-color: var(--accent-color2);
 }
 
 .card {
@@ -55,6 +56,14 @@ main {
 }
 h2 {
     margin-bottom: 20px;
+    font-size: x-large;
+    text-align: center;
+}
+hr {
+    border: none;    
+    height: 2px;            
+    background-color: var(--primary-color); 
+    margin: 20px 0;         
 }
 
 .projects {
@@ -78,7 +87,7 @@ h2 {
     transition: transform 0.3s ease;          
 }
 .project:hover {
-    transform: translateY(-20px); 
+    transform: translateY(-1px); 
 }
 footer {
     background: var(--primary-color);
@@ -101,7 +110,7 @@ nav a:hover {
     border-radius: 8px;           
 }
 .resource:hover{
-    transform: translateX(10px); 
+    transform: translateX(1px); 
 }
 li {
     margin-bottom: 20px; 
