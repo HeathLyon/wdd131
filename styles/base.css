@@ -3,9 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #4CAF50;  
+    --primary-color: #407076;  
     --secondary-color: #f4f4f4; 
-    --accent-color: #e0f7fa;   
+    --third-color: #698996;
+    --accent-color: #e0f7fa; 
+    --accent-color2: #97B1A6;  
 }
 body {
     font-family: Arial, sans-serif;
@@ -91,12 +93,15 @@ nav a {
     color: black;
     padding: 10px 15px;
     font-size: 18px;
-    transition: color 0.3s, background-color 0.3s; /* Smooth transition for effects */
+    transition: color 0.3s, background-color 0.3s; 
 }
 
-/* Hover style for nav links */
+
 nav a:hover {
-    color: white;               /* Changes text color on hover */
-    background-color: #4CAF50;  /* Adds a green background on hover */
-    border-radius: 4px;         /* Adds rounded corners */
+    color: white;              
+    background-color: var(--primary-color);  
+    border-radius: 4px;        
+}
+li {
+    margin-bottom: 20px; 
 }
