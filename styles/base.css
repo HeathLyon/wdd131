@@ -83,7 +83,6 @@ hr {
     flex-wrap: wrap;             
     margin-top: 20px;          
 }
-
 .project {
     background: var(--accent-color); 
     border: 1px solid #ddd;        
