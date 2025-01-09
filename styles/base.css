@@ -134,7 +134,7 @@ li {
     font-family: 'Jersey 10', sans-serif;
     font-size: large;
 }
-#footerLinks{
+.footerLinks{
     background-color: var(--secondary-color); 
     border-radius: 8px; 
     color: #407076;
