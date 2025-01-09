@@ -113,8 +113,7 @@ nav a {
     color: black;
     padding: 10px 15px;
     font-size: 18px;
-    transition: color 0.3s, background-color 0.3s; 
-    
+    transition: color 0.3s, background-color 0.3s;    
 }
 nav a:hover {
     color: white;              
@@ -128,6 +127,18 @@ li {
     margin-bottom: 20px; 
 }
 .footerClass{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
     font-family: 'Jersey 10', sans-serif;
     font-size: large;
+}
+#footerLinks{
+    background-color: var(--secondary-color); 
+    border-radius: 8px; 
+    color: #407076;
+    width: 45%;
+    
+    
 }
