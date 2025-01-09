@@ -1,7 +1,6 @@
 /* Heath lyon*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Jersey+10&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Rubik+Vinyl&display=swap');
 :root {
     --primary-color: #407076;  
     --secondary-color: #f4f4f4; 
@@ -10,7 +9,7 @@
     --accent-color2: #97B1A6;  
 }
 body {
-    font-family: Arial, sans-serif;
+    font-family: "roboto Slab", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box; /* Ensure consistent box model */
@@ -79,7 +78,7 @@ h2 {
     transition: transform 0.3s ease;          
 }
 .project:hover {
-    transform: translateY(-5px); 
+    transform: translateY(-20px); 
 }
 footer {
     background: var(--primary-color);
@@ -94,14 +93,20 @@ nav a {
     padding: 10px 15px;
     font-size: 18px;
     transition: color 0.3s, background-color 0.3s; 
+    
 }
-
-
 nav a:hover {
     color: white;              
     background-color: var(--primary-color); 
-    border-radius: 8px;        
+    border-radius: 8px;           
+}
+.resource:hover{
+    transform: translateX(10px); 
 }
 li {
     margin-bottom: 20px; 
+}
+.footerClass{
+    font-family: 'Jersey 10', sans-serif;
+    font-size: large;
 }
