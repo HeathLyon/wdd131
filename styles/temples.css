@@ -1,0 +1,4 @@
+.temples{
+    display:flex;
+    flex-wrap: wrap;
+}
