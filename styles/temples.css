@@ -1,4 +1,8 @@
 .temples{
-    display:flex;
-    flex-wrap: wrap;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#templeImg{
+    height: 150px;
+    
 }
