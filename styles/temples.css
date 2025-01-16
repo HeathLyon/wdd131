@@ -1,3 +1,38 @@
+/* Heath lyon*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Jersey+10&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Rubik+Vinyl&display=swap');
+:root {
+    --primary-color: #407076;  
+    --secondary-color: #f4f4f4; 
+    --third-color: #698996;
+    --accent-color: #e0f7fa; 
+    --accent-color2: #97B1A6;  
+}
+body {
+    font-family: "roboto Slab", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure consistent box model */
+}
+
+/* Header Styles */
+header {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1em 0;
+    text-align: center;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    max-width: fit-content;
+    background-color: var(--accent-color2);
+}
+
 .temples{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -5,4 +40,16 @@
 #templeImg{
     height: 150px;
     
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    font-size: 18px;
+    transition: color 0.3s, background-color 0.3s;    
+}
+nav a:hover {
+    color: white;              
+    background-color: var(--primary-color); 
+    border-radius: 8px;           
 }
