@@ -31,7 +31,7 @@ main {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-#templeImg{
+.templeImg{
     height: 150px;
     border-style: groove;
     border-color: var(--accent-color);
