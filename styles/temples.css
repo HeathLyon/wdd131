@@ -35,21 +35,25 @@ main {
 
 .temples{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 #templeImg{
     height: 150px;
     
+}
+nav{
+    display: flex;
+    justify-content: center;
 }
 nav a {
     text-decoration: none;
     color: black;
     padding: 10px 15px;
     font-size: 18px;
-    transition: color 0.3s, background-color 0.3s;    
+    transition: color 0.3s, black 0.3s;    
 }
 nav a:hover {
     color: white;              
-    background-color: var(--primary-color); 
+    background-color: black; 
     border-radius: 8px;           
 }
