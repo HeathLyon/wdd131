@@ -18,3 +18,8 @@
         grid-template-columns: 1fr; /* 1 column */
     }
 }
+@media (min-width: 1081px) {
+    #menuButton {
+        display: none; /* Hide the button */
+    }
+} 

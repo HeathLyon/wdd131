@@ -66,3 +66,38 @@ footer {
     padding: 10px 0;
     margin-top: 20px;
 }
+.menu{
+    display: flex;
+    justify-content: center;
+}
+#menuButton{
+    max-width: 50px;
+    max-height: 30px;
+}
+@media (max-width: 1081px) {
+    .hamburger {
+        display: block; 
+    }
+
+    #menuItems {
+        display: none; 
+        flex-direction: column;
+        background-color: var(--primary-color);
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 200px;
+        border: 1px solid var(--accent-color);
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    #menuItems.open {
+        display: flex; 
+    }
+}
+@media (max-width: 1081px) {
+    #menuButton {
+        display: block; 
+    }
+}
