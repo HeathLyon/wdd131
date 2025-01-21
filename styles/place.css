@@ -1,0 +1,41 @@
+
+/* Heath lyon*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Jersey+10&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Rubik+Vinyl&display=swap');
+:root {
+    --primary-color: #407076;  
+    --secondary-color: #f4f4f4; 
+    --third-color: #698996;
+    --accent-color: #e0f7fa; 
+    --accent-color2: #97B1A6;  
+}
+body {
+    font-family: "roboto Slab", sans-serif;
+    
+}
+
+/* Header Styles */
+header {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1em 0;
+    text-align: center;
+}
+
+/* Main Content Styles */
+main {
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+    
+}
+#hero{
+    max-width: 100%;
+}
+footer {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
