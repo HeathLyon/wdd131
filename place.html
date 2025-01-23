@@ -21,10 +21,8 @@
     <main>
         <div class="hero">
             <picture>
-                <picture>
-                    <source srcset="images/smallLama.webp" media="(max-width: 720px)" width="75%" class="heroPic">
-                    <img src="images/largeLama-josiahfarrow.webp" alt="Picture" width="90%" class="heroPic">
-                </picture>
+                <source srcset="images/smallLama.webp" media="(max-width: 720px)" class="heroPic">
+                <img src="images/largeLama-josiahfarrow.webp" alt="Picture" class="heroPic">
             </picture>
         </div>
         <div class="data">
@@ -33,10 +31,7 @@
         </div>
         <div class="weather">
             <h2 class="weather-heading">Weather</h2>
-            <picture class="picWeather">
-                <source srcset="images/weather_day.svg" media="(max-width: 920px)" width="20%" >
-                <img src="" alt="Picture" width="90%" class="heroPic">
-            </picture>
+            <img src="images/weather_day.svg" alt=" Sun Picture" class="picWeather">
             <p>Temperature: <span id="temp">8</span> °C</p>
             <p>Wind Speed: <span id="wind-speed">15</span> km/h</p>
             <p id="wind-chill">Wind Chill: N/A</p>
