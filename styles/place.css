@@ -70,7 +70,7 @@ footer {
     .data {
         position: relative;
         background: var(--secondary-color);
-        color: #407076;
+        color: var(--primary-color);
         justify-content: center;
         font-size: 1.5rem;
         top: 0; 
@@ -80,7 +80,7 @@ footer {
     .weather {
         position: relative;
         background: var(--secondary-color);
-        color: #407076;
+        color: var(--primary-color);
         font-size: 1.5rem;
         top: 0; 
         left: 0; 
