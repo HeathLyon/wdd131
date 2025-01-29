@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Jersey+10&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Rubik+Vinyl&display=swap');
+:root {
+    --primary-color: #407076;  
+    --secondary-color: #f4f4f4; 
+    --third-color: #698996;
+    --accent-color: #e0f7fa; 
+    --accent-color2: #97B1A6;  
+}
+body {
+    font-family: "roboto Slab", sans-serif;
+    
+}
+
+/* Header Styles */
+header {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1em 0;
+    text-align: center;
+}
+
+/* Main Content Styles */
+main {
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+    
+}
+.temples{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.templeImg{
+    height: 150px;
+    border-style: groove;
+    border-color: var(--accent-color); 
+    margin: 10px; 
+}
+section{
+    width: 90%;
+    margin: 0 auto;
+    background-color: var(--accent-color2);
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    text-decoration: none;
+    color: var(--accent-color);
+    padding: 10px 15px;
+    font-size: 18px;
+    transition: color 0.3s, black 0.3s;    
+}
+nav a:hover {
+    color: black;              
+    background-color: var(--accent-color2); 
+    border-radius: 8px;           
+}
+footer {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+#menuButton{
+    max-width: 50px;
+    max-height: 30px;
+}
+@media (max-width: 1081px) {
+    .hamburger {
+        display: block; 
+    }
+
+    #menuItems {
+        display: none; 
+        flex-direction: column;
+        background-color: var(--primary-color);
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 200px;
+        border: 1px solid var(--accent-color);
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    #menuItems.open {
+        display: flex; 
+    }
+}
+@media (max-width: 1081px) {
+    #menuButton {
+        display: block; 
+    }
+}
