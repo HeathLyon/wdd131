@@ -108,8 +108,8 @@ const temples = [
           if (selectedCategory === 1) return true; 
           if (selectedCategory === 2) return parseInt(temple.dedicated.split(",")[0]) < 1900; 
           if (selectedCategory === 3) return parseInt(temple.dedicated.split(",")[0]) >= 2000; 
-          if (selectedCategory === 4) return temple.area >= 100000; 
-          if (selectedCategory === 5) return temple.area < 100000; 
+          if (selectedCategory === 4) return temple.area >=  90000; 
+          if (selectedCategory === 5) return temple.area < 10000; 
           return true; 
       });
   
