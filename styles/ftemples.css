@@ -74,14 +74,12 @@ footer {
     gap: 10px;
     justify-content: center;
 }
-
-/* Make buttons look like links */
 .menu a {
     text-decoration: none;
     color: white;
     padding: 10px 15px;
     border-radius: 5px;
-    display: inline-block; /* Ensures proper padding */
+    display: inline-block;
 }
 #menuButton{
     max-width: 50px;
