@@ -22,48 +22,30 @@
             <button id="menuButton" aria-label="Toggle Menu" class="project">&#9776;</button>
             <nav id="menuItems">
                 
-                <a href="" class="project">
+                <a href="#" onclick="changeCategory(1)" class="project">
                     <p>Home</p>
                 </a>
-                <a href="" class="project">
+                <a href="#" onclick="changeCategory(2)" class="project">
                     <p>Old</p>
                 </a>
-                <a href="" class="project">
+                <a href="#" onclick="changeCategory(3)" class="project">
                     <p>New</p>
                 </a>
-                <a href="" class="project">
+                <a href="#" onclick="changeCategory(4)" class="project">
                     <p>Large</p>
                 </a>
-                <a href="" class="project">
+                <a href="#" onclick="changeCategory(5)" class="project">
                     <p>Small</p>
-                    
+                </a>      
                 </a>
             </nav>
         </div>
     </header>
     <main>
         <h2>Temples</h2>
-        <section class="temples">
-            <figure><img src="images/anchorage-alaska-temple.jpg" alt="Temple" class="templeImg">
-                <figcaption></figcaption></figure> 
-            <figure><img src="images/anchorage-alaska-temple.jpg" alt="Temple" class="templeImg">
-                <figcaption></figcaption></figure>
-            <figure><img src="images/anchorage-alaska-temple.jpg" alt="Temple" class="templeImg">
-                <figcaption></figcaption></figure>
-            <figure><img src="images/anchorage-alaska-temple.jpg" alt="Temple" class="templeImg">
-                <figcaption></figcaption></figure>
-            <figure><img src="images/anchorage-alaska-temple.jpg" alt="Temple" class="templeImg">
-                <figcaption></figcaption></figure>
-            <figure><img src="images/anchorage-alaska-temple.jpg" alt="Temple" class="templeImg">
-                <figcaption></figcaption></figure>
-            <figure><img src="images/anchorage-alaska-temple.jpg" alt="Temple" class="templeImg">
-                <figcaption></figcaption></figure>
-            <figure><img src="images/anchorage-alaska-temple.jpg" alt="Temple" class="templeImg">
-                <figcaption></figcaption></figure>
-            <figure><img src="images/anchorage-alaska-temple.jpg" alt="Temple" class="templeImg">
-                <figcaption></figcaption></figure>
-        </section>
-        
+        <div class="temple-container" id="templeList"></div> 
+        <p id="selectedCategoryText">Selected Category: 0</p>
+ 
     </main>
     <footer class="footerClass">
         <p class="footerLinks">Heath Lyon ©️ <span id="currentYear"></span></p>

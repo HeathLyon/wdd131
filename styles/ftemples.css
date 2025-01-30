@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Jersey+10&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Rubik+Vinyl&display=swap');
+
 :root {
     --primary-color: #407076;  
     --secondary-color: #f4f4f4; 
@@ -11,7 +10,6 @@ body {
     font-family: "roboto Slab", sans-serif;
     
 }
-
 /* Header Styles */
 header {
     background: var(--primary-color);
@@ -27,18 +25,24 @@ main {
     padding: 10px;
     
 }
-.temples{
+.temple-container{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.templeImg{
+.temple-card{
+    background-color: var(--accent-color);
+    border: var(--primary-color);
+    border-style: double;
+    margin: 3px;
+}
+.temple-card img{
     height: 150px;
     border-style: groove;
     border-color: var(--accent-color); 
     margin: 10px; 
 }
 section{
-    width: 90%;
+    width: 20%;
     margin: 0 auto;
     background-color: var(--accent-color2);
 }
@@ -65,9 +69,19 @@ footer {
     padding: 10px 0;
     margin-top: 20px;
 }
-.menu{
+.menu {
     display: flex;
+    gap: 10px;
     justify-content: center;
+}
+
+/* Make buttons look like links */
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block; /* Ensures proper padding */
 }
 #menuButton{
     max-width: 50px;
