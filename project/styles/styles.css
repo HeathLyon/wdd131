@@ -25,35 +25,20 @@ header h1 {
 }
 
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-}
-
-/* Ensure list items are displayed properly */
-nav ul li {
-    display: inline-block;
-}
-
-/* Base Navigation Links */
-nav ul li a {
+nav a {
     text-decoration: none;
-    color: var(--white);
-    font-weight: bold;
-    padding: 8px 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
-    display: inline-block; /* Ensures hover works */
+    color: black;
+    padding: 10px 15px;
+    font-size: 18px;
+    transition: color 0.3s, background-color 0.3s;    
 }
-
-/* Hover Effect */
-nav ul li a:hover {
-    background-color: var(--accent-color);
-    transform: scale(1.1);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+nav a:hover {
+    color: white;              
+    background-color: var(--accent-color); 
+    border-radius: 8px;           
+}
+.resource:hover{
+    transform: translateX(1px); 
 }
 /* Main Content */
 main {
