@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Heath Lyon">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals Heath Lyon student Home page project. this page is made for learning purposes and will be used through the course study">
+    <title>WDD 131 - Dynamic Web Fundamentals - Heath Lyon</title>
+
+    <link rel="stylesheet" href="styles/formstyles.css">
+    <script src="scripts/formscripts.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Jersey+10&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Rubik+Vinyl&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Product Review Form</h1>
+    </header>
+
+    <form action="review.html" method="get">
+        <!-- Product Name (Dropdown) -->
+        <label for="product">Product Name:</label>
+        <select id="product" name="product" required>
+            <option value="" disabled selected>Select a Product ...</option>
+        </select>
+
+        <fieldset>
+            <legend>Overall Rating:</legend>
+            <label><input type="radio" name="rating" value="1" required> ⭐</label>
+            <label><input type="radio" name="rating" value="2"> ⭐⭐</label>
+            <label><input type="radio" name="rating" value="3"> ⭐⭐⭐</label>
+            <label><input type="radio" name="rating" value="4"> ⭐⭐⭐⭐</label>
+            <label><input type="radio" name="rating" value="5"> ⭐⭐⭐⭐⭐</label>
+        </fieldset>
+
+        <label for="install-date">Date of Installation:</label>
+        <input type="date" id="install-date" name="install_date" required>
+
+
+        <fieldset>
+            <legend>Useful Features:</legend>
+            <label><input type="checkbox" name="features" value="durability"> Durability</label>
+            <label><input type="checkbox" name="features" value="design"> Design</label>
+            <label><input type="checkbox" name="features" value="performance"> Performance</label>
+        </fieldset>
+
+        <label for="review">Write a Review:</label>
+        <textarea id="review" name="review"></textarea>
+
+        <label for="username">Your Name (Optional):</label>
+        <input type="text" id="username" name="username">
+>
+        <input type="submit" value="Send Review">
+    </form>
+    <footer class="footerClass">
+        <p class="footerLinks">Heath Lyon ©️ <span id="currentYear"></span></p>
+        <p class="footerLinks"><span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
