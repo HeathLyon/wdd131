@@ -54,11 +54,14 @@ function loadRobots() {
         robotCard.classList.add("robot-card");
 
         robotCard.innerHTML = `
-            <img src="${robot.image}" alt="${robot.name} "loading="lazy">
-            <h3>${robot.name}</h3>
-            <p>${robot.description}</p>
-            <a href="${robot.url}" target="_blank" rel="noopener noreferrer" class="learn-more">Learn More</a>
-        `;
+        <img src="${robot.image}" alt="${robot.name}" loading="lazy">
+        <h3>${robot.name}</h3>
+        <p>${robot.description}</p>
+        <div class="cta-links">
+            <a href="${robot.url}" target="_blank" rel="noopener noreferrer" class="cta-link">Learn More</a> 
+        </div>
+`;
+          
 
         featuredSection.appendChild(robotCard);
     });
